@@ -16,7 +16,7 @@ patch_names = {
     "right (xmax)": ""
 }
 
-SAVE_FILE = "save_bmgp.json"
+SAVE_FILE = "responses.json"
 
 def load_saved_data():
     if os.path.exists(SAVE_FILE):
