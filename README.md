@@ -97,3 +97,7 @@ Optionally check cell stats for cubicity (ideal mesh!).
 Just place the blockMeshDict file inside the system/ folder of your OpenFOAM case and run:
     
     blockMesh
+
+
+![image](https://github.com/user-attachments/assets/7a2fde73-1b93-4d07-9f4d-d4a9a6265de9)
+
