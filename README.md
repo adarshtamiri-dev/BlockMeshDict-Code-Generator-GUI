@@ -21,36 +21,36 @@ This is a Tkinter-based GUI tool that helps CFD engineers and OpenFOAM users gen
 
 📐 Why is it useful?
 
-    🛠️ Reduces setup time for simple blockMesh domains.
+🛠️ Reduces setup time for simple blockMesh domains.
 
-    🧠 Removes guesswork — helps users focus on simulation, not syntax.
+🧠 Removes guesswork — helps users focus on simulation, not syntax.
 
-    🎯 Avoids mesh errors by clearly displaying dimensions and patch faces.
+🎯 Avoids mesh errors by clearly displaying dimensions and patch faces.
 
-    📊 Educational for beginners — makes learning mesh structure more intuitive.
+ 📊 Educational for beginners — makes learning mesh structure more intuitive.
 
-    💼 Perfect for academic projects, tutorials, and small-scale industrial CFD setups.
+💼 Perfect for academic projects, tutorials, and small-scale industrial CFD setups.
 
 
 🖼️ Example Output Preview
 
-    Vertices, blocks, boundaries and more are all auto-calculated.
+ Vertices, blocks, boundaries and more are all auto-calculated.
 
-    Saves the file as blockMeshDict — ready to plug into your constant/polyMesh folder!
+Saves the file as blockMeshDict — ready to plug into your constant/polyMesh folder!
 
 🔧 Requirements
 
-    Python 3.x
+Python 3.x
 
-    Tkinter (comes pre-installed with most Python distributions)
+Tkinter (comes pre-installed with most Python distributions)
 
 💡 Future Ideas
 
-    Add preview rendering using matplotlib or PyOpenGL
+Add preview rendering using matplotlib or PyOpenGL
 
-    Export multiple mesh formats
+ Export multiple mesh formats
 
-    Add support for grading and advanced mesh setups
+ Add support for grading and advanced mesh setups
 
 🙌 Contribution
 
@@ -67,46 +67,45 @@ Created with ❤️ by an OpenFOAM enthusiast to make meshing easier for everyon
 Setting up and using this GUI is super simple — even if you're just getting started with Python and OpenFOAM!
 ✅ Step-by-Step Instructions:
 
-    🔽 Download or Clone the Repository
+🔽 Download or Clone the Repository
 
-        Option 1: Click the green Code button on this GitHub page, then Download ZIP.
+Option 1: Click the green Code button on this GitHub page, then Download ZIP.
 
-        Option 2: Use Git:
+Option 2: Use Git:
 
     git clone https://github.com/your-username/blockMeshDict-GUI.git
     cd blockMeshDict-GUI
 
 🐍 Make Sure Python 3 is Installed
 
-    Check using:
+Check using:
 
     python3 --version
 
 📦 No Extra Dependencies Needed!
 
-    This app uses only Tkinter, which is already included in standard Python installations. No pip install needed!
+This app uses only Tkinter, which is already included in standard Python installations. No pip install needed!
 
 ▶️ Run the App
 
-    In your terminal or command prompt:
+In your terminal or command prompt:
 
-    python3 blockMeshDict_GUI.py
+    python3 bm_gen_gui_v1.py
 
 🧮 Fill in Your Mesh Details
 
-    Choose your coordinate origin, dimensions, number of cells, and unit scale.
+Choose your coordinate origin, dimensions, number of cells, and unit scale.
 
-    Customize patch names via the Configure Patch Names button.
+Customize patch names via the Configure Patch Names button.
 
-    Optionally check cell stats for cubicity (ideal mesh!).
+Optionally check cell stats for cubicity (ideal mesh!).
 
 📄 Click “Generate blockMeshDict”
 
-    The file blockMeshDict will be created in the current directory.
+ The file blockMeshDict will be created in the current directory.
 
 🚀 Use It in OpenFOAM
 
-    Just place the blockMeshDict file inside the system/ folder of your OpenFOAM case and run:
-
+Just place the blockMeshDict file inside the system/ folder of your OpenFOAM case and run:
     
     blockMesh
