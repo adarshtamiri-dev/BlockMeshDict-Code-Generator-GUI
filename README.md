@@ -61,7 +61,7 @@ Option 1: Click the green Code button on this GitHub page, then Download ZIP.
 
 Option 2: Use Git:
 
-    git clone https://github.com/your-username/blockMeshDict-GUI.git
+    git clone https://github.com/aerxstxck/BlockMeshDict-Code-Generator-GUI.git
     cd blockMeshDict-GUI
 
 🐍 Make Sure Python 3 is Installed
@@ -78,7 +78,7 @@ This app uses only Tkinter, which is already included in standard Python install
 
 In your terminal or command prompt:
 
-    python3 bm_gen_gui_v1.py
+    python3 bMgGUIPRaw_v2.py
 
 🧮 Fill in Your Mesh Details
 
