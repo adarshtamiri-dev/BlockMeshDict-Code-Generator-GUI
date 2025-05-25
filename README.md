@@ -98,6 +98,6 @@ Just place the blockMeshDict file inside the system/ folder of your OpenFOAM cas
     
     blockMesh
 
+![image](https://github.com/user-attachments/assets/64af4783-1a25-4df4-886e-2137932981cd)
 
-![image](https://github.com/user-attachments/assets/7a2fde73-1b93-4d07-9f4d-d4a9a6265de9)
 
