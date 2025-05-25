@@ -1,14 +1,13 @@
-🧱 blockMeshDict GUI Generator for OpenFOAM
+# 🧱 blockMeshDict GUI Generator for OpenFOAM
 
-🚀 A lightweight Python GUI to generate blockMeshDict files quickly and accurately for OpenFOAM users.
+# 🚀 A lightweight Python GUI to generate blockMeshDict files quickly and accurately for OpenFOAM users.
+
+# For Beginners 
+
+## This is a GUI tool that helps beginners generate the blockMeshDict file. It's designed for beginners and pros alike who want a fast, clean, and customizable mesh setup.
 
 
-🧐 What is this?
-
-This is a Tkinter-based GUI tool that helps CFD engineers and OpenFOAM users generate the blockMeshDict file interactively — no more manual editing or syntax errors! It's designed for beginners and pros alike who want a fast, clean, and customizable mesh setup.
-
-
-📐 Why is it useful?
+## 📐 Why is it useful?
 
 🛠️ Reduces setup time for simple blockMesh domains.
 
@@ -51,7 +50,7 @@ Created with ❤️ by an OpenFOAM enthusiast to make meshing easier for everyon
 
 
 
-🚀 How to Use This App
+## 🚀 How to Use This App
 
 Setting up and using this GUI is super simple — even if you're just getting started with Python and OpenFOAM!
 ✅ Step-by-Step Instructions:
