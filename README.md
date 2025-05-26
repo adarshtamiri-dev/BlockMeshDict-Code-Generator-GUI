@@ -78,7 +78,7 @@ This app uses only Tkinter, which is already included in standard Python install
 
 In your terminal or command prompt:
 
-    python3 bMgGUIPRaw_v2.py
+    python3 bmg-v3.py
 
 🧮 Fill in Your Mesh Details
 
