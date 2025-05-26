@@ -62,7 +62,7 @@ Option 1: Click the green Code button on this GitHub page, then Download ZIP.
 Option 2: Use Git:
 
     git clone https://github.com/aerxstxck/BlockMeshDict-Code-Generator-GUI.git
-    cd blockMeshDict-GUI
+    cd BlockMeshDict-Code-Generator-GUI
 
 🐍 Make Sure Python 3 is Installed
 
