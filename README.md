@@ -32,3 +32,27 @@ Option 2: Use Git:
 ```bash
 git clone https://github.com/aerxstxck/BlockMeshDict-Code-Generator-GUI.git
 cd BlockMeshDict-Code-Generator-GUI
+```
+
+2. Run the Application
+
+Once you're in the repository's directory, execute the Python script using your terminal or command prompt:
+Bash
+```bash
+python3 bmg-v3.py
+```
+
+3. Fill in Your Mesh Details
+
+Inside the GUI, provide the required mesh parameters. This includes defining your coordinate origin, the overall dimensions of your domain, and the number of cells along each axis. You'll also specify the unit scale for your mesh.
+
+Use the "Configure Patch Names" button to customize your boundary patches. Optionally, you can check the "Cell Stats" for insights into mesh quality, such as cubicity.
+4. Generate the blockMeshDict File
+
+After inputting all the details, click the "Generate blockMeshDict" button. The blockMeshDict file will then be created and saved in the current directory from which you launched the script.
+5. Use in OpenFOAM
+
+To integrate this mesh into your OpenFOAM case, place the generated blockMeshDict file inside the system/ folder of your OpenFOAM case directory. Afterward, execute the blockMesh utility in your OpenFOAM terminal to generate the mesh:
+```bash
+blockMesh
+```
