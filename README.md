@@ -37,7 +37,6 @@ cd BlockMeshDict-Code-Generator-GUI
 2. Run the Application
 
 Once you're in the repository's directory, execute the Python script using your terminal or command prompt:
-Bash
 ```bash
 python3 bmg-v3.py
 ```
